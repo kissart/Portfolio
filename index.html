@@ -1,1 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Krissa Faith Casuga | Portfolio</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Google Font -->
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+
+        <header>
+            <div class="container nav-container">
+                <nav id="nav">
+                    <ul>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+
+                <div class="hamburger" onclick="toggleMenu()">☰</div>
+            </div>
+        </header>
+
+        <!-- HERO -->
+        <section class="hero">
+            <div class="hero-content">
+                <p class="subtitle">Multimedia Arts Student</p>
+                <h1>
+                    Hi, I'm <span class="highlight">Krissa Faith Casuga</span>
+                </h1>
+                
+            </div>
+        </section>
+
+        <!-- ABOUT -->
+        <section id="about" class="section light">
+            <div class="container about-container">
+
+                <div class="about-image">
+                    <img src="images/Krissa.jpg" alt="Krissa Faith Casuga">
+                </div>
+
+                <div class="about-text">
+                    <h2>About Me</h2>
+                    <p>
+                        I’m a Multimedia Arts student with a deep love for creativity in all its forms. 
+                        While I enjoy exploring different mediums, I’m especially passionate about handicrafts, bringing ideas to life through hands-on, detailed work. 
+                        Creating something tangible from imagination is what truly excites me. <br><br>
+                        Beyond crafts, I also enjoy designing magazines, developing mockups, and creating website layouts. 
+                        I’m fascinated by how visual elements, typography, and layout come together to tell a story. 
+                        Whether working on print or digital platforms, I strive to design pieces that are both aesthetically engaging and thoughtfully structured. <br><br>
+                        For me, art is not just about creating, it’s about expressing, experimenting, and continuously learning.
+                    </p>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Projects -->
+        <section id="projects" class="section dark">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="cards">
+                <!-- Project Card 1 -->
+                <div class="card">
+                    <img src="images/Packaging.png" alt="Packaging Project">
+                    <h3>Packaging Design</h3>
+                </div>
+                
+
+            
+
+            <!-- Project Card 3 -->
+                <div class="card">
+                    <img src="images/UIUX.png" alt="UI/UX Design">
+                    <h3>UI/UX Designing</h3>
+                </div>
+            <!-- Project Card 2 -->
+                <div class="card">
+                    <img src="images/Magazine.jpg" alt="Magazine Layout">
+                    <h3>Magazine Layout</h3>
+                </div>
+        
+            </div>
+        </div>
+        </section>
+
+
+
+        <!-- CONTACT -->
+        <section id="contact" class="contact-section">
+            <div class="contact-container">
+
+                <!-- LEFT SIDE -->
+                <div class="contact-info">
+                    <h2>Contact Me</h2>
+
+                    <p>📧 casuga.369324@dasmarinas.sti.edu.ph</p>
+                    <p>📱 +63 966 156 7098</p>
+
+                    <div class="socials">
+                        <a href="https://www.facebook.com/fffffffffffffffaith/">Facebook</a>
+                        <a href="https://www.instagram.com/fffffffffffffffaith/?hl=en">Instagram</a>
+                    </div>
+
+                    <a href="cv.pdf" class="cv-btn" download>Download CV</a>
+                </div>
+
+                <!-- RIGHT SIDE -->
+                <div class="contact-form">
+                    <form action="send.php" method="POST">
+                        <input type="text" name="name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="message" placeholder="Your Message" required></textarea>
+                        <button type="submit">Submit</button>
+                    </form>
+                </div>
+
+            </div>
+        </section>
+
+        <footer>
+            <p>© <?php echo date("Y"); ?> Krissa Faith Casuga. All rights reserved.</p>
+        </footer>
+
+        <script src="script.js"></script>
+    </body>
+</html>
 
